@@ -1,4 +1,5 @@
 import {Component} from '@angular/core'
+import { IUser } from '../model/user.interface';
 
 @Component({
     selector:'au-user',
@@ -6,5 +7,7 @@ import {Component} from '@angular/core'
 })
 
 export class UserComponent{
-    
+    user:IUser;
+    username:string;
+
 }

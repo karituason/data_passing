@@ -1,3 +1,13 @@
 <div class=container>
-    
+    <div class="panel">
+        <h1>User</h1>
+    </div>
+    <div class="panel-body">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="username"
+                [(ngModel)]="username"/> <button class="btn btn-success">Submit</button>
+        </div>
+        Username = {{username}}
+    </div>
 </div>

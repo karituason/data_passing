@@ -1,4 +1,5 @@
 import {Component} from '@angular/core'
+import { IUser } from '../model/user.interface';
 
 @Component({
     selector:'au-admin',
@@ -6,5 +7,6 @@ import {Component} from '@angular/core'
 })
 
 export class AdminComponent{
-
+    users:IUser[];
+    
 }
